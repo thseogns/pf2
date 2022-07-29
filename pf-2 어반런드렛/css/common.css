@@ -1,0 +1,134 @@
+.hide{
+  display: none;
+}
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder { /* WebKit browsers */
+  color:transparent;
+}
+
+input:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:transparent;
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:transparent;
+}
+
+input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color:transparent;
+}
+
+.inner{
+  width: 95%;
+  margin: 0 auto;
+}
+.innerPadding{ /* 카멜케이스방식 소문자시작해서 중간 대문자 */
+  padding-top:20px;
+  padding-bottom: 60px;
+  
+ 
+  
+}
+.h2{
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Binggrae-Bold';
+}
+h3{
+  font-size: 31px;
+    font-weight: 700;
+  font-family: 'Binggrae-Bold';
+}
+.h4{
+  font-size: 27px;
+  font-weight: 700;
+  
+  
+}
+
+/*  flex */
+.flex{
+  
+  display: flex;
+  
+}
+.flexBetween{
+  justify-content: space-between;
+  
+  
+}
+.flexCenter{
+  justify-content: center;
+}
+.flexColumn{
+  flex-direction: column;
+}
+.flexAlignCenter{
+  
+  align-items: center;
+  
+}
+.flexAlignEnd{
+  align-items: flex-end;
+}
+.flexAround{
+  justify-content: space-around;
+}
+.flexEvenly{
+  justify-content: space-evenly;
+  
+}
+
+.flexWrap{
+  flex-wrap: wrap;
+}
+
+.br{
+  display: block;
+}
+
+.p{
+  line-height: 1.5;
+  
+}
+/*패딩*/
+.padding50{
+  
+ padding:50px;
+  
+}
+
+.paddingTB100{
+  
+ padding-top:100px;
+  padding-bottom: 100px;
+  
+  
+}
+
+
+
+.img{
+  
+background-repeat: no-repeat;
+background-position: right bottom;
+background-origin: content-box;
+}
+.btn1{
+  width: 130px;
+height: 40px;
+background-color: red;
+color: white;
+border-radius: 30px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+}
+/* 글자 정렬 */
+.text-Center{
+  text-align: center;
+  
+}
