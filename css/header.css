@@ -1,0 +1,85 @@
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+header a{
+  color: #fff;
+}
+header .inner {
+  height: 100px;
+  padding-top: 44px;
+  align-items: flex-end;
+}
+header .inner h1 {
+  /*! position: absolute; */
+  /*! left: calc(50% - 100px); */
+  /*! width: 200px; */
+  /*! text-align: center; */
+  order: 2;
+}
+header .inner .wgn{
+  order: 1;
+}
+header .inner .wgn a.ham{
+  font-size: 0;
+  width: 36px;
+  height: 36px;
+  display: block;
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+header .inner .wgn a.ham::before{
+  content: "";
+  display: block;
+  height: 3px;
+  background-color:white;
+  width: 100%;
+}
+header .inner h1 a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 35px;
+}
+header .inner h1 a img{
+  display: block;
+  transform: translateY(-12px);
+  filter: brightness(100);
+}
+header .inner ul.gnb {
+ align-self: first baseline; 
+}
+header .inner ul.gnb li {
+  
+}
+header .inner ul.gnb li h2 {
+  
+}
+header .inner ul.gnb li h2 a {
+  
+}
+header .inner ul.gnb li ul.gnbsub {
+  
+}
+header .inner ul.gnb li ul.gnbsub li {
+  
+}
+header .inner ul.gnb li ul.gnbsub li a {
+  
+}
+header .inner ul.enb {
+  
+  order: 3;
+  gap: 20px;
+}
+header .inner ul.enb li {
+  
+}
+header .inner ul.enb li a {
+  
+  color: black;
+}
